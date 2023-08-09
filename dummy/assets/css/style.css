@@ -1,0 +1,154 @@
+body{font-family: "Dosis", Arial, sans-serif;}
+h1{font-size: 36px;}
+h2{font-size: 24px;}
+h3{font-size: 20px;}
+h4{font-size: 18px;}
+h6{font-size: 14px;}
+h5{font-size: 16px;}
+
+.slider_img{height: 655px;}
+.features { position: relative;margin-top: -231px; z-index: 100;}
+.bg-blue-light { background-color: #2FA5EB; color: white;}
+.bg-blue-dark { background-color: #107FC9; color: white;}
+.bg-blue-darker { background-color: #006FBA; color: white;}
+.feature-box{padding-left: 10px; padding-right: 10px; padding-bottom: 15px; padding-top: 20px;}
+.feature-box p{margin-bottom: 20px;}
+.feature_box_text1{margin-bottom: 20px; text-transform: uppercase;}
+.feature_box_text{margin-bottom:10px; text-transform: uppercase;}
+.opening-hours{list-style: none; padding: 0px; padding-top: 1px; margin-top: 30px;}
+.opening-hours li:first-child { border-top: 1px dashed rgba(255, 255, 255, 0.79);}
+.opening-hours li{ padding: 9px 0; border-bottom: 1px dashed rgba(255, 255, 255, 0.79);}
+.opening-hours span{float: right;}
+.main_feature_box{justify-content: center;}
+.feature-box .btn1 {color: #fff; background-color: transparent; height: 40px; font-size: 13px; text-transform: uppercase;  border-radius: 3px; border: 2px solid; padding: 8px 20px; letter-spacing: 1px; }
+.feature-box .btn1:hover{background-color: white; color: #2FA5EB; border-color: #fff;}
+.row_text{padding: 10% 4%;}
+.row_text h3{margin-bottom: 14px; color: #fff;}
+.row_text h1{text-transform: uppercase; margin-bottom: 20px; color: #fff;}
+.row_text span{ color: #2fc2ff;}
+.row_text h5{color: #F5F5F5; font-size: 1.25rem;}
+.banner button{z-index: 100;}
+/*.overlay{ position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, .4);}*/
+
+.banner .carousel-item { position: relative; }
+.banner .carousel-item:before{ content: ""; width: 100%; height: 100%; display: block; background-color: rgba(0,0,0,0.4); float: left; position: absolute; top: 0px; left: 0px; z-index: 9;}
+.banner .carousel-item .container{ position: relative; z-index: 99;}
+
+
+
+
+
+
+.about{padding-top: 60px;}
+.about-we-are{margin-bottom: 40px;}
+.about-we-are h4{margin-bottom: 10px;}
+.about-we-are h2{margin-bottom: 20px;}
+.about-we-are p{color: #717f86; margin-bottom: 20px; font-size: 14px;}
+.about-we-are ul {position: relative; padding-left: 20px; margin-bottom: 30px; padding: 0; margin: 0; list-style: none;}
+.about-we-are ul li{position: relative; line-height: 24px; margin-bottom: 10px; padding-left: 25px; font-size: 13px;}
+.about-we-are ul li i{ color: #2fa5eb; padding-right: 10px;}
+.about_img{ margin: 0; }
+
+
+
+.choose{ background-color: #eef0fd; padding: 60px 0;}
+.choose_title{ text-align: center; margin-bottom: 40px; }
+.subtitle{ margin-bottom: 15px; color: #717f86;}
+.title{ margin-bottom: 25px; } 
+.choose .img-content p{ color: #717f86; }
+
+
+
+.choose figure{background-color: #2fa5eb; border: 1px solid #2fa5eb; border-radius: 10px; display: flex; justify-content: center;  align-items: center; max-width: 60px; height: 60px; margin-right: 2rem;flex: 0 60px;}
+.choose figure img{filter:  brightness(0) invert(1);}
+.choose figure:hover{background-color: transparent;}
+.choose figure img:hover{filter:  brightness(1) invert(0);}
+.choose figcaption{ flex: 1;}
+.column{padding-top: 30px;}
+
+
+
+.outstanding_service{padding: 60px 0;}
+.service-content{padding: 20px;}
+.service-content h5{color: #2FA5EB; margin-bottom: 10px; text-transform: uppercase;}
+.service-content p{color: #717f86; margin-bottom: 15px;}
+.outstanding_service .btn_2{border: 2px solid #2FA5EB; color: #2FA5EB; border-radius: 50px; height: 34px; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; }
+.outstanding_service .btn_2:hover{background-color: #2fa5eb; color: #fff; border-color: #fff;}
+.service_box{background-color: #f9f9f9; border: 1px solid #f2f2f2; border-bottom: 2px solid #e9e9e9; padding: 0; margin-top: 24px;}
+
+
+
+.hospital_video{background-color: #eef0fd; margin: 50px 0px;}
+.hospital_video h6{ margin: 40px 0px 20px 0px; color: #2FA5EB; text-transform: uppercase; font-size: 16px;}
+.hospital_video h3{ text-transform: uppercase; margin-bottom: 20px; font-size: 20px;}
+.hospital_video p{color: #717f86; margin-bottom: 20px; font-size: 14px;}
+.hospital_video .btn_watch{ background-color: #2FA5EB; color: #fff; text-transform: uppercase; letter-spacing: 1px;}
+.hospital_video .btn_watch:hover{color: #fff; background-color: #288CC8; border-color: #288CC8;}
+
+
+
+
+
+
+
+
+.Appointment_img img{width: 100%; height: 100%;}
+.Appointment_btn, .Appointment_btn:focus {background-color: #2FA5EB; color: #fff; height: 46px; border-radius: 3px;}
+.Appointment_btn:hover{color: #fff; background-color: #288CC8; border-color: #288CC8;}
+.i_tag { color: #2FA5EB;}
+.Appointment_form input{ height: 46px; padding: 11px 14px; font-size: 13px; line-height: 20px; border-radius: 3px;}
+.Appointment_form select{ height: 46px; padding: 11px 14px; font-size: 13px; line-height: 20px; border-radius: 3px;}
+.Appointment_form textarea{line-height: 18px; resize: none; border-radius: 3px;}
+.form-control:focus{border: #288cc8 solid 2px; box-shadow: none;}
+
+
+
+.great_team{background-color: #eef0fd; padding: 60px 0 40px 0;}
+.great_team .heart_img{margin-bottom: 15px;}
+.great_team h2{ font-size: 22px; margin-bottom: 15px; }
+.great_team p{color: #717f86; margin-bottom: 20px;}
+.great_team figure{margin: 0;}
+.great_team figcaption h5{margin-bottom: 10px; font-size: 15px;text-transform: uppercase;}
+.great_team figcaption h6{margin-bottom: 5px; font-size: 12px;text-transform: uppercase; color: #717f86;}
+.great_team .btn_3{border: 2px solid #2FA5EB; color: #2FA5EB; border-radius: 50px; height: 40px; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; padding: 8px 20px; }
+.great_team .btn_3:hover{background-color: #2fa5eb; color: #fff; border-color: #fff;}
+.great_team .service_box{ margin: 0px; padding: 0px; border: none; }
+.great_team figcaption{ padding: 15px; }
+.great_team .doctor_name{background-color: #f9f9f9; border: 1px solid #f2f2f2; border-bottom: 2px solid #e9e9e9; padding: 0; }
+
+.doctor_info{position: relative;}
+.doctor_info .overlay{position: absolute; background-color: rgba(44, 62, 80, 0.68); top: 0; width: 100%; height: 100%; align-items: center; display: none; justify-content: center;}
+.doctor_info:hover .overlay {display: flex;}
+.overlay span {padding-left: 5px; padding-right: 5px;}
+.overlay span i{padding-left: 5px; padding-right: 5px; top: 50%; left: 50%;}
+
+
+
+.review{padding: 60px 0;}
+.review .review_content p{margin-bottom: 20px; font-size: 13px;}
+.review_box{padding: 25px 20px; border: 1px solid #e9e9e9; border-radius: 4px;}
+.review figure img{border-radius: 50%;}
+.review figure{padding-right: 20px;}
+.review figcaption h5{ padding: 5px 0; color: #2FA5EB; text-transform: uppercase; }
+.review figcaption h6{ color: #717f86; }
+
+
+
+.sign_up{padding: 80px 0; background-position: center center; background-size: cover; position: relative;}
+.sign_up:before{content: ""; position: absolute; width: 100%; height: 100%;background-color: rgba(0,0,0,0.5); top: 0px;}
+.sign_up .container{ position: relative;}
+.sign_up_text {color: #fff; text-align: center;}
+.sign_up_text h2 {margin-bottom: 30px; font-size: 28px;}
+.sign_up_text h6 {margin-bottom: 40px;}
+.sign_up .search {position: relative; width: 83%; margin-left: auto; margin-right: auto;}
+.sign_up .search input {height: 50px; border-radius: 50px;}
+.sign_up .search input:hover {border: solid 2px #2FA5EB;}
+.sign_up button{position: absolute; background-color: #2FA5EB;color: #fff;top: 0; bottom: 0;  border-radius: 50px; right: 0; text-transform: uppercase; font-size: 14px; padding: 11px 30px; }
+.sign_up button:hover{color: #fff; background-color: #288CC8; border-color: #288CC8;}
+.sign_up button:focus{ color: #fff; background-color: #288CC8; border-color: #288CC8; }
+
+
+
+.latest_news{padding: 40px 0;}
+.latest_news .our_staff img{width: 100%; height: 100%;}
+.latest_news .client img{ height: 100%; width: 100%;}
